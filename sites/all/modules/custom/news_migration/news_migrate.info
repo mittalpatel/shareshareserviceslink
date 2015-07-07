@@ -1,0 +1,8 @@
+name = "Migrate SSL News"
+description = "Module to migrate SSL News to Drupal 7"
+package = "Migration"
+core = 7.x
+dependencies[] = migrate
+
+files[] = news_migrate.migrate.inc
+files[] = news.inc

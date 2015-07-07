@@ -1,0 +1,6 @@
+<?php
+
+function news_migrate_watchdog($log_entry) {
+  //$bt = @var_export(@debug_backtrace(), TRUE);
+  //file_put_contents(DRUPAL_ROOT . '/errorlogs/' . time() . 'error.txt', $bt, FILE_APPEND);
+}

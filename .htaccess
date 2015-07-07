@@ -107,7 +107,7 @@ DirectoryIndex index.php index.html index.htm
   #
   # If your site is running in a VirtualDocumentRoot at http://example.com/,
   # uncomment the following line:
-  # RewriteBase /
+  RewriteBase /
 
   # Pass all requests not referring directly to files in the filesystem to
   # index.php. Clean URLs are handled in drupal_environment_initialize().
@@ -141,3 +141,8 @@ DirectoryIndex index.php index.html index.htm
     </FilesMatch>
   </IfModule>
 </IfModule>
+
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/pitchlake/C5CK5GM7/htdocs/ssl/passwd/.htpasswd
+require valid-user
