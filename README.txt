@@ -1,5 +1,5 @@
 
-CONTENTS OF THIS FILE :::::::: WORK NOW!!
+CONTENTS OF THIS FILE 
 ---------------------
 
  * About Drupal
