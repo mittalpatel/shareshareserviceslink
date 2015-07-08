@@ -1,2 +1,1 @@
-Scheduled polling of dev.ssl
-No Git consumers using SCM API plugin for: https://github.com/b-ramdin/shareshareserviceslink.git
+curl http://52.26.102.240/git/notifyCommit?url=https://github.com/b-ramdin/shareshareserviceslink.git
