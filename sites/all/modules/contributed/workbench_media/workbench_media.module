@@ -120,7 +120,7 @@ function workbench_media_views_default_views() {
 function workbench_media_preprocess_views_view_table(&$vars) {
 
   // Custom handling for the workbench files view
-  if ($vars['view']->name == 'workbench_files') {
+  if ($vars['view']->name == 'workbench_files' || $vars['view']->name == 'user_workbench_files') {
     foreach ($vars['rows'] as $id => $row) {
       // Is this file an image?
       if (strstr(file_get_mimetype($row['uri']), 'image')) {
